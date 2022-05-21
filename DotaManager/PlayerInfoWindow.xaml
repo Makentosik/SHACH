@@ -1,0 +1,15 @@
+﻿<Window x:Class="DotaManager.PlayerInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DotaManager"
+        mc:Ignorable="d"
+        Title="PlayerInfoWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="label_playerID" Content="Имя игрока"/>
+        <Label x:Name="testbox" Margin="15,15,15,15" Width="150" Height="50"/>
+        <Image x:Name="avatar_Image" Width="150" Height="150" />
+
+    </Grid>
+</Window>
